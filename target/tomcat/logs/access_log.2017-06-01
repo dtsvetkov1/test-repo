@@ -1,0 +1,6 @@
+127.0.0.1 - - [01/Jun/2017:20:20:06 +0300] "GET /alfresco/service/ HTTP/1.1" 200 3963 http-bio-8080-exec-1 1446
+127.0.0.1 - - [01/Jun/2017:20:20:13 +0300] "GET /alfresco/service/dir/Company%20Home/FOLDER3/?verbose=true HTTP/1.1" 404 159 http-bio-8080-exec-5 505
+127.0.0.1 - - [01/Jun/2017:20:20:19 +0300] "GET /alfresco/service/dir/Company%20Home/?verbose=true HTTP/1.1" 200 823 http-bio-8080-exec-8 1764
+127.0.0.1 - - [01/Jun/2017:20:30:49 +0300] "GET /share HTTP/1.1" 404 - http-bio-8080-exec-10 0
+127.0.0.1 - - [01/Jun/2017:20:31:01 +0300] "GET /alfresco/ HTTP/1.1" 200 2253 http-bio-8080-exec-3 3992
+127.0.0.1 - - [01/Jun/2017:20:31:05 +0300] "GET /share HTTP/1.1" 404 - http-bio-8080-exec-4 0
