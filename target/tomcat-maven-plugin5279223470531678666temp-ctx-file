@@ -1,5 +1,0 @@
-<Context path="/alfresco" reloadable="false" backgroundProcessorDelay="-1">
-  <Resources className="org.apache.naming.resources.VirtualDirContext" extraResourcePaths="/=/home/i-love-cats1/maven-repos/test-repo/target/amp/web,/home/i-love-cats1/maven-repos/test-repo/target/amp-war"/>
-  <Loader searchVirtualFirst="true" className="org.apache.catalina.loader.VirtualWebappLoader" virtualClasspath="/home/i-love-cats1/maven-repos/test-repo/target/classes;/home/i-love-cats1/maven-repos/test-repo/target/amp/config;/home/i-love-cats1/maven-repos/test-repo/target/test-classes"/>
-  <JarScanner scanAllDirectories="true"/>
-</Context>

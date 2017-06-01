@@ -82,3 +82,39 @@ Execution result:
 20:20:04,164 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
 20:21:00,191 WARN  [org.alfresco.util.OpenOfficeConnectionTester] Error trying to query Open Office version information. OpenOffice.org's ConfigurationRegistry not implemented in this version of OOo. This should not affect the operation of OOo.
 20:21:00,192 INFO  [org.alfresco.util.OpenOfficeConnectionTester] The OpenOffice connection was re-established.
+20:41:48,125 ERROR [org.alfresco.util.SocketOpenOfficeConnection] disconnected unexpectedly
+20:41:49,252 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Replication' subsystem, ID: [Replication, default]
+20:41:49,253 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Replication' subsystem, ID: [Replication, default]
+20:41:49,350 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Subscriptions' subsystem, ID: [Subscriptions, default]
+20:41:49,353 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Subscriptions' subsystem, ID: [Subscriptions, default]
+20:41:49,353 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'email' subsystem, ID: [email, inbound]
+20:41:49,354 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'email' subsystem, ID: [email, inbound]
+20:41:49,354 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'fileServers' subsystem, ID: [fileServers, default]
+20:41:49,357 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'fileServers' subsystem, ID: [fileServers, default]
+20:41:49,368 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+20:41:49,382 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+20:41:49,383 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'solrSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+20:41:49,384 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'activitiesSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+20:41:49,386 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'OOoDirect' subsystem, ID: [OOoDirect, default]
+20:41:49,387 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'OOoDirect' subsystem, ID: [OOoDirect, default]
+20:41:49,388 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+20:41:49,388 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+20:41:49,391 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Synchronization' subsystem, ID: [Synchronization, default]
+20:41:49,392 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Synchronization' subsystem, ID: [Synchronization, default]
+20:41:49,414 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'email' subsystem, ID: [email, outbound]
+20:41:49,415 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'email' subsystem, ID: [email, outbound]
+20:41:49,432 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'imap' subsystem, ID: [imap, default]
+20:41:49,439 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'imap' subsystem, ID: [imap, default]
+20:41:49,638 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Search' subsystem, ID: [Search, hidden]
+20:41:50,114 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Search' subsystem, ID: [Search, hidden]
+20:41:50,336 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'locksSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+20:41:50,338 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'propertyValueSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+20:41:50,339 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'thirdparty' subsystem, ID: [thirdparty, default]
+20:41:50,340 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'thirdparty' subsystem, ID: [thirdparty, default]
+20:41:50,341 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'auditSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+20:41:50,341 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+20:41:50,342 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+20:41:50,342 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopping 'sysAdmin' subsystem, ID: [sysAdmin, default]
+20:41:50,342 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] Stopped 'sysAdmin' subsystem, ID: [sysAdmin, default]
+20:41:50,343 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'contentSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+20:41:50,345 WARN  [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'repoSqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
